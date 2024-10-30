@@ -29,4 +29,4 @@ jobs:
             databricks workspace import "testthb.py" "/Workspace/Users/thitimak@ais.co.th/chinook-pipeline2/test/testthb" --language python --overwrite
       - name: Run test job
         run: |
-            databricks jobs run-now --job-id <841548924046674>
+            databricks jobs run-now --job-id 841548924046674
