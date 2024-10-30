@@ -26,4 +26,4 @@ jobs:
             databricks workspace import "pipelinethb.py" "/Workspace/Users/thitimak@ais.co.th/chinook-pipeline2/prod/pipelinethb" --language python --overwrite
       - name: Run production job
         run: |
-            databricks jobs run-now --job-id <922806528461973>
+            databricks jobs run-now --job-id 727807069992719
